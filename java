@@ -42,8 +42,8 @@ public boolean isCourseFull() {
 }
 public class Question1 {
     public static void main(String[] args) {
-        Student student1 = new Student("Alice", 1);
-        Course course1 = new Course("Math 101", 30);
+        Student student1 = new Student("Jhon", 1);
+        Course course1 = new Course("JAVA", 30);
         student1.displayInfo();
         course1.displayInfo();
         if (course1.isCourseFull()) {
@@ -135,10 +135,10 @@ public boolean isFull() {
 }
 public class Question2 {
     public static void main(String[] args) {
-        Student student1 = new Student(1, "Alice");
-        Student student2 = new Student(2, "Bob");
-        Student student3 = new Student(3, "Charlie");
-        Course course1 = new Course(101, "Java Programming", 1);
+        Student student1 = new Student(1, "Jhon");
+        Student student2 = new Student(2, "Bobi");
+        Student student3 = new Student(3, "Charls");
+        Course course1 = new Course(101, "Python", 1);
         boolean enrolled1 = course1.enrollStudent(student1);
         boolean enrolled2 = course1.enrollStudent(student2);
         boolean enrolled3 = course1.enrollStudent(student3);
@@ -277,10 +277,10 @@ public class Question3 {
     }
     public static void main(String[] args) {
         Question3 collegeManager = new Question3();
-        Student student1 = new Student("Alice", 1);
-        Student student2 = new Student("Bob", 2);
-        Course course1 = new Course("Math 101", 30);
-        Course course2 = new Course("Physics 101", 25);
+        Student student1 = new Student("Jhon", 1);
+        Student student2 = new Student("Bobi", 2);
+        Course course1 = new Course("JAVA", 30);
+        Course course2 = new Course("CS", 25);
         collegeManager.addStudent(student1);
         collegeManager.addStudent(student2);
         collegeManager.addCourse(course1);
